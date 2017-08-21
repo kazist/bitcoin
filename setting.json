@@ -1,0 +1,13 @@
+{
+    "title": "Bitcoin",
+    "alias": "bitcoin",
+    "groups": [{
+            "title": "Bitcoin Setting",
+            "settings": [{
+                    "name": "bitcoin_payments_bitcoin_id",
+                    "label": "Bitcoin ID",
+                    "default": "",
+                    "type": "text"
+            }]
+        }]
+}

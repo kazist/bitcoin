@@ -1,0 +1,33 @@
+Bitcoin\Payments\Code\Tables\Payments:
+  table: bitcoin_payments
+  type: entity
+  id:
+    id:
+      type: integer
+      generator: { strategy: AUTO }
+  fields:
+    title:
+      name: title
+      type: string
+      length: 255
+    created_by:
+      name: created_by
+      type: integer
+      length: 11
+    date_created:
+      name: date_created
+      type: datetime
+    modified_by:
+      name: modified_by
+      type: integer
+      length: 11
+    date_modified:
+      name: date_modified
+      type: datetime
+  lifecycleCallbacks:
+    prePersist:
+      - onPrePersist
+      - onPrePersistCallbacks
+    preUpdate:
+      - onPreUpdate
+      - onPreUpdateCallbacks

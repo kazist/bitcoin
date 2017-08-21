@@ -1,0 +1,6 @@
+{
+    "BitcoinPayments": {
+        "namespace": "Bitcoin\\Payments",
+        "controller": "PaymentsController"
+    }
+}
