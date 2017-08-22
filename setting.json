@@ -7,6 +7,7 @@
                     "name": "bitcoin_payments_bitcoin_id",
                     "label": "Bitcoin ID",
                     "default": "",
+                    "tooltip": "Set Bitcoin ID",
                     "type": "text"
             }]
         }]
