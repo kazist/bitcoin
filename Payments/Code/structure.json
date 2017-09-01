@@ -45,7 +45,7 @@
         {
             "dropdown_filter": "true",
             "name": "created_by",
-            "html_type": "text",
+            "html_type": "recordpicker",
             "mysql_type": "int",
             "id_name": "",
             "class_name": "",
@@ -54,9 +54,15 @@
             "format_value": "",
             "parameters": {
                 "general": [],
-                "source": [],
+                "source": {
+                    "data_source": "db_table",
+                    "join_field": "id",
+                    "display_field": [
+                        "name"
+                    ],
+                    "join_table_name": "users_users"
+                },
                 "save": {
-                    "view_side": "both",
                     "index": ""
                 },
                 "media": [],
@@ -66,7 +72,7 @@
         {
             "dropdown_filter": "true",
             "name": "date_created",
-            "html_type": "text",
+            "html_type": "datetime",
             "mysql_type": "datetime",
             "id_name": "",
             "class_name": "",
@@ -87,7 +93,7 @@
         {
             "dropdown_filter": "true",
             "name": "modified_by",
-            "html_type": "text",
+            "html_type": "recordpicker",
             "mysql_type": "int",
             "id_name": "",
             "class_name": "",
@@ -96,9 +102,15 @@
             "format_value": "",
             "parameters": {
                 "general": [],
-                "source": [],
+                "source": {
+                    "data_source": "db_table",
+                    "join_field": "id",
+                    "display_field": [
+                        "name"
+                    ],
+                    "join_table_name": "users_users"
+                },
                 "save": {
-                    "view_side": "both",
                     "index": ""
                 },
                 "media": [],
@@ -108,7 +120,7 @@
         {
             "dropdown_filter": "true",
             "name": "date_modified",
-            "html_type": "text",
+            "html_type": "datetime",
             "mysql_type": "datetime",
             "id_name": "",
             "class_name": "",
