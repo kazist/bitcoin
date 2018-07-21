@@ -1,10 +1,10 @@
 {
     "name": "kazist/bitcoin",
-    "description": "Kazist Bitcoin Manager.",
+    "description": "Kazist Bitcoin Manager. ",
     "keywords": ["kazist", "transfer manager"],
     "homepage": "https://github.com/kazist/bitcoin",
     "license": "LGPL-3.0-or-later",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "authors": [
         {
             "name": "Dedan Irungu",

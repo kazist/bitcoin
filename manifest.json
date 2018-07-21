@@ -1,7 +1,7 @@
 {
     "name": "kazist\/bitcoin",
     "app_name": "Bitcoin",
-    "title": "Bitcoin Payment Gateway",
+    "title": "Bitcoin Payment Gateway ",
     "icon": "assets\/images\/icon.png",
     "extension": "component",
     "path": "bitcoin\/",
